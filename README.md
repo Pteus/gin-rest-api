@@ -1,6 +1,6 @@
 # Go Game API
 
-This project is a simple RESTful API for managing a collection of games, built with the **Gin framework** in Go (Golang). 
+This project is a simple RESTful API for managing a collection of games, built with the **Gin framework** in Go (Golang).
 
 The purpose of this project is purely for **investigation** and **learning Golang**.
 
@@ -17,8 +17,10 @@ The purpose of this project is purely for **investigation** and **learning Golan
 ---
 
 ### TODO:
-- Add Sqlite database (with gorm)
-- Rewrite tests
-- Add JWT auth (why not?!)
-- Docker
-- Some kind of basic CI/CD
+
+- [x] Add Sqlite database (with gorm)
+- [ ] Rewrite tests
+- [x] Add JWT auth (why not?!)
+- [ ] Docker
+- [ ] Some kind of basic CI/CD
+- [x] Log to file
