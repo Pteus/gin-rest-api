@@ -15,3 +15,10 @@ The purpose of this project is purely for **investigation** and **learning Golan
 - Delete a game
 
 ---
+
+### TODO:
+- Add Sqlite databse
+- Rewrite tests
+- Add JWT auth (why not?!)
+- Docker
+  
