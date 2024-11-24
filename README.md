@@ -17,7 +17,7 @@ The purpose of this project is purely for **investigation** and **learning Golan
 ---
 
 ### TODO:
-- Add Sqlite databse
+- Add Sqlite database (with gorm)
 - Rewrite tests
 - Add JWT auth (why not?!)
 - Docker
