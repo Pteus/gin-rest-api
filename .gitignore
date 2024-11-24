@@ -1,0 +1,37 @@
+# Go binary files
+/bin/
+/obj/
+
+/# Build directories
+build/
+
+# Go workspace file
+*.workspace
+
+# Go vendor directory
+/vendor/
+
+# Dependency directories
+# If you use a Go module, ignore the Go modules cache
+.golangci.yml
+go.sum
+go.mod
+
+# IDE specific files
+.idea/
+.vscode/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Test output
+*.test
+*.out
+*.log
+
+# Coverage files
+*.coverprofile
+
+# Go report tool
+.goreportcard*
