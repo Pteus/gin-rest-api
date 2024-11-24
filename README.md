@@ -22,3 +22,4 @@ The purpose of this project is purely for **investigation** and **learning Golan
 - Add JWT auth (why not?!)
 - Docker
 - Some kind of basic CI/CD
+- Log to file
