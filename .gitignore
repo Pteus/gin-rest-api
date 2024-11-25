@@ -1,3 +1,6 @@
+# Ignore the SQLite database file
+games.db
+
 # Go binary files
 /bin/
 /obj/
@@ -35,3 +38,5 @@ Thumbs.db
 
 # Go report tool
 .goreportcard*
+
+gin-rest-api

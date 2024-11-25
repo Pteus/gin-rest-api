@@ -1,0 +1,44 @@
+### Get all games
+GET http://localhost:8080/games
+
+### Create a new game
+POST http://localhost:8080/games
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Final Fantasy VII",
+  "genre": "RPG",
+  "price": 55
+}
+
+### Login to get JWT token (For authentication)
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "userID": 1
+}
+
+### Get a game by ID (Protected route, requires JWT)
+# Replace YOUR_JWT_TOKEN_HERE with the token you received from the login request
+GET http://localhost:8080/protected/games/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzI1NzczOTQsInN1YiI6MX0.xmbfb6U0_FFQJHDVcfY1cckvmbT5Ro4Ryo4vw7InR78
+
+### Update a game by ID (Protected route, requires JWT)
+# Replace YOUR_JWT_TOKEN_HERE with the token you received from the login request
+PUT http://localhost:8080/protected/games/4
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
+Content-Type: application/json
+
+{
+  "id": 4,
+  "title": "Final Fantasy VII Remake",
+  "genre": "RPG",
+  "price": 65
+}
+
+### Delete a game by ID (Protected route, requires JWT)
+# Replace YOUR_JWT_TOKEN_HERE with the token you received from the login request
+DELETE http://localhost:8080/protected/games/4
+Authorization: Bearer YOUR_JWT_TOKEN_HERE
