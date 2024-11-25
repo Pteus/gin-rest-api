@@ -28,9 +28,9 @@ jobs:
       # Step 4: Build the Docker image
       - name: Build Docker image
         run: |
-          docker build -t Pteus91/go-gin-games-api:latest .
+          docker build -t pteus91/go-gin-games-api:latest .
 
       # Step 5: Push the Docker image to Docker Hub
       - name: Push Docker image
         run: |
-          docker push Pteus91/go-gin-games-api:latest
+          docker push pteus91/go-gin-games-api:latest
